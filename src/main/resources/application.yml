@@ -1,0 +1,7 @@
+server:
+  port: 8085
+user-service:
+  address: http://localhost:8081
+
+github-ingestor-service:
+  address: http://localhost:9090
