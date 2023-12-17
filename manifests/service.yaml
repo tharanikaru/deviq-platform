@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: developeriq-platform-service
+  namespace: developeriq
+  labels:
+    app: developeriq
+spec:
+  selector:
+    app: developeriq
+
+  ports:
+    - port: 8085
+      targetPort: 8085
+
+  type: LoadBalancer
