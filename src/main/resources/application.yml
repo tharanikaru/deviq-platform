@@ -1,7 +1,9 @@
 server:
   port: 8085
 user-service:
-  address: http://localhost:8081
+  address: http://ace0147ea578e4428a1c7d11355d688d-1957877872.eu-north-1.elb.amazonaws.com:8081
+  #address: http://localhost:8081
 
 github-ingestor-service:
-  address: http://localhost:9090
+  address: http://a7793c8fdb63844a9857e2fb9509147a-1466789062.eu-north-1.elb.amazonaws.com:9090
+  #address: http://localhost:9090
